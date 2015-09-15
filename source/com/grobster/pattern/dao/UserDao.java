@@ -7,5 +7,5 @@ public interface UserDao {
 	public User get(String lastName);
 	public boolean delete(User u);
 	public boolean update(User u);
-	public List<User> getAll();
+	public Collection<User> getAll();
 }
